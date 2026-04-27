@@ -3,6 +3,10 @@
  *
  *   In C++14, the trailing return type is replaced
  *   with decltype(auto) as its return type.
+ *
+ *   中文解释：
+ *   在 C++14 中，可以用 decltype(auto) 直接声明返回类型，
+ *   不再需要 C++11 中较冗长的尾置返回类型写法。
  */
 
 #include <iostream>

@@ -7,6 +7,10 @@
  *   a destructor or one of the copy operations, you should consider upgrading
  *   these classes to eliminate the dependence.  C++11's "=default" lets you say
  *   that explicitly.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 class Widget {

@@ -12,6 +12,10 @@
  *   known during compilation.  That makes it possible to write constexpr
  *   functions that call Point's getters and to initialize constexpr objects
  *   with the results of such functions.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include "Point_cpp11.h"

@@ -9,6 +9,10 @@
  *
  *    * A feature of braced initialization is that it prohibits implicit
  *      narrowing conversions among built-in types.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 #include <atomic>
 #include <vector>

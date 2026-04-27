@@ -5,6 +5,10 @@
  *   field with an enum - requires a cast to size_t.
  *   Unscoped enums have an advantage here with implicit
  *   conversion.
+ *
+ *   中文解释：
+ *   如果用作用域枚举表示 tuple 字段下标，枚举值不会自动变成 size_t，
+ *   因此传给 std::get 时必须显式转换。这里展示的是作用域枚举在该场景下的额外成本。
  */
 
 #include <string>

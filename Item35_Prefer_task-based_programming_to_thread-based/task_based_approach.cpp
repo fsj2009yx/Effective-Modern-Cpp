@@ -7,6 +7,10 @@
  *     because the future returned from std::async offers the get function.
  *
  *   - The get function also provides access to the exception if doAsyncWork throws an exception.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 #include <future>
 #include <iostream>

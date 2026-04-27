@@ -6,6 +6,10 @@
  *   a destructor has a potentially significant side effect: it prevents the
  *   move operations from being generated.  However, creation of the class's
  *   copy operations is unaffected.  This can lead to a significant performance problem!
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <map>

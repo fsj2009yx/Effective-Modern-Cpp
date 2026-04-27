@@ -13,6 +13,10 @@
  *
  *   1. If expr's type is a reference, ignore the reference part.
  *   2. Then pattern-match expr's type against ParamType to determine T.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 template<typename T>

@@ -3,6 +3,10 @@
  *
  *   The ability to declare references to arrays enables creation of a template
  *   to deduce the number of elements that an array contains.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <array>

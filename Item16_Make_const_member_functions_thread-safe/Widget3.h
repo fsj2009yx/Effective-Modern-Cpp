@@ -5,6 +5,10 @@
  *   a std::atomic is adequate, but once you go to two or more variables or
  *   memory locations that require manipulation as a unit, you should reach for
  *   a mutex.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 #include <atomic>
 #include <mutex>

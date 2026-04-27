@@ -3,6 +3,10 @@
  *
  *   Typedefs cannot be templatized, and therefore need to be wrapped
  *   in a metafunction or container.
+ *
+ *   中文解释：
+ *   typedef 不能直接写成模板别名，因此只能把它包在一个模板结构体里，
+ *   再通过内部的 type 成员间接取得真正的类型。
  */
 
 #include <list>

@@ -15,6 +15,10 @@
  *   2. If, after ignoring expr's reference-ness, expr is const, ignore that,
  *      too.  If it's volatile, also ignore that. (volatile objects are uncommon.
  *      They're generally used only for implementing device drivers.)
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 template<typename T>

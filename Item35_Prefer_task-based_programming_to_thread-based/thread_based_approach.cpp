@@ -8,6 +8,10 @@
  *
  *   - With the thread-based approach, if doAsyncWork throws, the program dies (via a call
  *     to std::terminate).
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <iostream>

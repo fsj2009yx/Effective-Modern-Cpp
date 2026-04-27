@@ -2,6 +2,10 @@
  * Key Idea:
  *
  *   Alias declarations may be templatized (typedefs cannot).
+ *
+ *   中文解释：
+ *   using 声明可以直接写成别名模板，
+ *   而 typedef 不能直接模板化，所以 using 更适合表达模板类型别名。
  */
 
 #include <list>

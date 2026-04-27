@@ -4,6 +4,10 @@
  *   For a reference to be universal, type deduction is necessary, but it's not
  *   sufficient.  The form of the reference declaration must also be correct,
  *   and that form is quite constrained.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <utility>

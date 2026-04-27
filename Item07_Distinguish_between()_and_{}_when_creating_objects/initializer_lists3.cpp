@@ -4,6 +4,10 @@
  *   * Compiler's determiniation to match braced initializers with constructors
  *     taking std::initializer_lists is so strong, it prevails even if the
  *     best-match std::initializer_list constructor can't be called.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <iostream>

@@ -3,6 +3,10 @@
  *
  *   Scoped enums are strongly typed, and no implicit
  *   conversions are done. 
+ *
+ *   中文解释：
+ *   作用域枚举不会自动转换成整数或其他算术类型。
+ *   这能让编译器在错误比较或错误传参时直接报错。
  */
 
 #include <cstddef>

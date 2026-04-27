@@ -11,6 +11,10 @@
  *   [1] http://www.aristeia.com/BookErrata/emc++-errata.html
  *   [2] http://stackoverflow.com/questions/25607216/why-should-i-prefer-the-explicitly-typed-initializer-idiom-over-explicitly-giv
  *   [3] https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <vector>

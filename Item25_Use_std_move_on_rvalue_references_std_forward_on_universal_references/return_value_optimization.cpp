@@ -18,6 +18,10 @@
  *
  *   When the RVO is permitted, either copy elision takes place or std::move is
  *   implicitly applied to local objects being returned.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 class Widget {};
 

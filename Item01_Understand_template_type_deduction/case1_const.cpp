@@ -18,6 +18,10 @@
  *   of cx and rx continues to be respected, but because we're now assuming that
  *   param is a reference-to-const, there's no longer a need for const to be
  *   deduced as part of T.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 template<typename T>

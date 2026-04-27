@@ -5,6 +5,10 @@
  *     - In C++11, constexpr member functions are implicitly const.
  *     - void isn't a literal type in C++11, so constexpr member functions must
  *       not return void.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 class Point {

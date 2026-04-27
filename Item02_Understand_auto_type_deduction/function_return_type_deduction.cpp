@@ -6,6 +6,10 @@
  *
  *   2. When auto is used in a parameter type specification in a C++14 lambda
  *      expression, things won't compile.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <vector>

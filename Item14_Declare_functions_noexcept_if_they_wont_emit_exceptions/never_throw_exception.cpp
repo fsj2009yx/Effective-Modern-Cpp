@@ -3,6 +3,10 @@
  *
  *   There is an additional incentive to apply noexcept to functions that won't
  *   produce exceptions: it permits compilers to generate better object code.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <stdexcept>

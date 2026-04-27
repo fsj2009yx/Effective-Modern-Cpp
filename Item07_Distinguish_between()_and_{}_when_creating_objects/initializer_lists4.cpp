@@ -4,6 +4,10 @@
  *   * Only if there's no way to convert the types of the arguments in a braced
  *     initializer to the type in a std::initializer_list do compilers fall back
  *     on normal overload resolution.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <iostream>

@@ -16,6 +16,10 @@
  *
  *   If param were a pointer (or a pointer to const) instead of a reference,
  *   things would work essentially the same way:
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 template<typename T>

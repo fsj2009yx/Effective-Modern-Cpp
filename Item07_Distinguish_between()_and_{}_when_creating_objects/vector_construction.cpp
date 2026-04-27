@@ -4,6 +4,10 @@
  *   * If you create a std::vector of a numeric type (e.g., a std::vector<int>)
  *     and you pass two arguments to the constructor, whether you enclose those
  *     arguments in parentheses or braces makes a tremendous difference.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <vector>

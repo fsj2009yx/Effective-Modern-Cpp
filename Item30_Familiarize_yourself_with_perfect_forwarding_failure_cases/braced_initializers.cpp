@@ -4,6 +4,10 @@
  *   The use of a braced initializer is a perfect forwarding failure case.
  *   However, there is a workaround by declaring a local variable using auto,
  *   and then passing the local variable to the forwarding function.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <iostream>

@@ -4,6 +4,10 @@
  *   The results of std::type_info::name are not reliable.
  *   Compiler diagnostics are a more dependable source of information about the
  *   results of type deduction.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <iostream>

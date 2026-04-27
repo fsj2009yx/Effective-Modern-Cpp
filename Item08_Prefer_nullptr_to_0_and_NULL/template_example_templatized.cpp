@@ -4,6 +4,11 @@
  *   lockAndCall is a templatized replacement for f1, f2, and f3.
  *   It demonstrates how template type deduction requires the null pointer
  *   argument to be nullptr, while 0 and NULL are deduced to integral type.
+ *
+ *   中文解释：
+ *   lockAndCall 用函数模板替代了 f1、f2、f3 的重复代码。
+ *   这个例子说明：模板类型推导时，如果想传空指针，应使用 nullptr；
+ *   0 和 NULL 会被推导成整数类型，从而无法匹配需要指针的调用。
  */
 
 #include <iostream>

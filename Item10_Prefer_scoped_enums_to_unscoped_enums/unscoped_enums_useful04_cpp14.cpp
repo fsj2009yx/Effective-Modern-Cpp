@@ -4,6 +4,11 @@
  *   Scoped enums require a cast to size_t type in order
  *   to reference a field in std::tuple. To create a helper
  *   function, use constexpr since std::get is a template.
+ *
+ *   中文解释：
+ *   作用域枚举用作 tuple 字段下标时需要转换成底层整数类型。
+ *   因为 std::get 的下标必须是编译期常量，辅助转换函数要用 constexpr。
+ *   C++14 可以用 std::underlying_type_t 或 auto 返回类型把写法变得更简洁。
  */
 
 #include <string>

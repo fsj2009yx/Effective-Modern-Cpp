@@ -6,6 +6,10 @@
  *   1. moving the object to be captured into a function object produced by
  *      std::bind and
  *   2. giving the lambda a reference to the "captured" object.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <functional>

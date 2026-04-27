@@ -7,6 +7,11 @@
  *   Since std::get requires a size_t, here we can take
  *   advantage of implicit conversion which would have otherwise
  *   be more effort using scoped enums.
+ *
+ *   中文解释：
+ *   这里用非作用域枚举表示 tuple 字段下标，比裸数字更清晰。
+ *   因为 std::get 需要编译期整数下标，非作用域枚举能隐式转换成整数，
+ *   所以不需要像作用域枚举那样额外写强制转换。
  */
 
 #include <string>

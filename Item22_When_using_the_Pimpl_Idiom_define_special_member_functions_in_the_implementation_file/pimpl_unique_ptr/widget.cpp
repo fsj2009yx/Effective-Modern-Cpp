@@ -6,6 +6,11 @@
  *
  *   Note that this compiles, but will fail for clients
  *   because the destructor is not implemented.
+ *
+ *   中文解释：
+ *   C++11 的 Pimpl 可以用 unique_ptr 替代裸指针来管理 Impl 生命周期。
+ *   但 unique_ptr 删除对象时需要知道 Impl 的完整类型；
+ *   如果析构函数没有在 .cpp 中定义，客户端编译时可能因为 Impl 不完整而失败。
  */
 
 #include "widget.h"                // in "widget.cpp"

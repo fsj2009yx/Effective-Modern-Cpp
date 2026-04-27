@@ -4,6 +4,10 @@
  *   Because array parameter declarations are treated as if they were pointer
  *   parameters, the type of an array that's passed to a template function by
  *   value is deduced to be a pointer type.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 template<typename T>

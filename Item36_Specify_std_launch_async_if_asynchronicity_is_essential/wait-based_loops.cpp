@@ -4,6 +4,10 @@
  *     wait-based for loops using timeouts, because calling wait_for or
  *     wait_until on a task (see Item 35) that's deferred yields the value
  *     std::launch::deferred.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <future>

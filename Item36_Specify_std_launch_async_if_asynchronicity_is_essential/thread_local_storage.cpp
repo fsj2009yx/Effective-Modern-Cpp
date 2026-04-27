@@ -6,6 +6,10 @@
  *   storage (TLS), it's not possible to predict which thread's variables will be accessed.
  *
  * TODO: improve this example.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <future>

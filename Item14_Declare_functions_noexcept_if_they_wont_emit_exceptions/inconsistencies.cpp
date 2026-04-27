@@ -3,6 +3,10 @@
  *
  *   Compilers typically offer no help in identifying inconsistencies between
  *   function implementations and their exception specifications.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 void setup() {};

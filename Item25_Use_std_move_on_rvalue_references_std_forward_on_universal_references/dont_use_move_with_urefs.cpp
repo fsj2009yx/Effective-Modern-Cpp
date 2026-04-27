@@ -3,6 +3,10 @@
  *
  *   Using std::move with universal references is a bad idea, because that can
  *   have the effect of unexpectedly modifying lvalues (e.g., local variables).
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <iostream>

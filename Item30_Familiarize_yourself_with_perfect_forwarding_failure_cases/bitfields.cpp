@@ -8,6 +8,10 @@
  *   take advantage of the fact that the forwarded-to function will always
  *   receive a copy of the bitfield's value.  You can thus make a copy yourself
  *   and call the forwarding function with the copy.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <cstdint>

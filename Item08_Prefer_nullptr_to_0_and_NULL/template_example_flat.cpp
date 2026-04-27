@@ -4,6 +4,11 @@
  *   - nullptr shines especially brightly when templates enter the picture.
  *
  *   - The following code for f1, f2, and f3 can be templatized.
+ *
+ *   中文解释：
+ *   - 模板参与类型推导时，nullptr 的优势更明显，因为它能被明确推导为空指针。
+ *
+ *   - 下面 f1、f2、f3 的重复调用逻辑可以抽成一个函数模板。
  */
 
 #include <iostream>

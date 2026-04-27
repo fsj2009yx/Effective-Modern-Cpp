@@ -3,6 +3,10 @@
  *
  *   Reversing the order of the assignments to cachedValue and CacheValid
  *   eliminates that problem, but the result is even worse.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 #include <atomic>
 

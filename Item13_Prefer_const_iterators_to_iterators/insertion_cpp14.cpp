@@ -5,6 +5,10 @@
  *   up a bit short is when you want to write maximally generic library code.
  *
  *   This works fine in C++14, but, sadly, not in C++11.
+ *   中文解释：
+ *
+ *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+
  */
 
 #include <algorithm>
