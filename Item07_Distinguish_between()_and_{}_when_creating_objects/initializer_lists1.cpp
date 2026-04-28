@@ -3,10 +3,14 @@
  *
  *   * In constructor calls, parentheses and braces have the same meaning as
  *     long as std::initializer_list parameters are not involved.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   * 在构造函数调用中，只要不涉及 std::initializer_list 形参，圆括号和花括号具有相同
+ *     含义。
  */
 
 #include <iostream>

@@ -4,9 +4,12 @@
  *   For scoped enums, no implicit conversion is done. However
  *   type casting is still valid.
  *
- *   中文解释：
- *   作用域枚举不会发生隐式转换，但程序员仍然可以显式 static_cast。
- *   这样既避免了无意转换，也允许在确实需要底层数值时主动转换。
+ */
+
+/*
+ * 核心思想：
+ *
+ *   对于限域枚举，不会发生隐式转换。不过，显式类型转换仍然有效。
  */
 
 #include <cstddef>

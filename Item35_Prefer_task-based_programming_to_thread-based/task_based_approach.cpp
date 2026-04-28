@@ -7,11 +7,20 @@
  *     because the future returned from std::async offers the get function.
  *
  *   - The get function also provides access to the exception if doAsyncWork throws an exception.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
-
  */
+
+/*
+ * 核心思想：
+ *
+ *   - 基于任务的方法通常优于对应的基于线程的方法。
+ *
+ *   - 使用基于任务的方法时，很容易访问 doAsyncWork 的返回值，因为 std::async 返回的 future
+ *     提供了 get 函数。
+ *
+ *   - 如果 doAsyncWork 抛出异常，get 函数也会提供对该异常的访问。
+ */
+
 #include <future>
 #include <iostream>
 

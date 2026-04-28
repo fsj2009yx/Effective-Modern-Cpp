@@ -3,10 +3,13 @@
  *
  *   The below code won't compile, but, when written this way, compilers will
  *   kvetch about all the overriding-related problems.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   下面的代码无法编译，但以这种方式编写时，编译器会抱怨所有与重写相关的问题。
  */
 
 class Base {

@@ -4,10 +4,14 @@
  *   The way to guarantee that std::async will schedule the task for truly
  *   asynchronous execution is to pass std::launch::async as the first argument
  *   when you make the call to std::async.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   要保证 std::async 会以真正异步的方式调度任务，做法是在调用 std::async 时把
+ *   std::launch::async 作为第一个实参传入。
  */
 
 #include <future>

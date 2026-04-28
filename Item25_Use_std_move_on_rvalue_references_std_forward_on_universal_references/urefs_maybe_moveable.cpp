@@ -8,10 +8,16 @@
  *   Universal references should be conditionally cast to rvalues (via
  *   std::forward) when forwarding them, because they're only sometimes bound to
  *   rvalues.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   万能引用可能绑定到有资格移动的对象。只有当万能引用由右值初始化时，才应把它转换为右值。
+ *
+ *   转发万能引用时，应有条件地把它们转换为右值（通过 std::forward），因为它们只是在某些
+ *   情况下绑定到右值。
  */
 
 #include <memory>

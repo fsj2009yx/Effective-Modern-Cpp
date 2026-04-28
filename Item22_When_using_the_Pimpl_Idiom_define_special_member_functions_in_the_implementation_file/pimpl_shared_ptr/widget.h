@@ -5,10 +5,12 @@
  *   complete, and hence no special member functions need to
  *   be declared here.
  *
- *   中文解释：
- *   shared_ptr 可以在头文件中持有前置声明的 Impl。
- *   因为它不要求在这里看到 Impl 的完整定义，所以也不必在类中额外声明析构、
- *   移动等特殊成员函数。
+ */
+
+/*
+ * 核心思想：
+ *
+ *   std::shared_ptr 不要求其指向的类型是完整类型，因此这里不需要声明特殊成员函数。
  */
 
 #include <memory>

@@ -4,10 +4,14 @@
  *   - Whereas std::move unconditionally casts its argument to an rvalue,
  *     std::forward does it only under certain conditions.  std::forward is a
  *     conditional cast.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   - std::move 会无条件地把其实参转换为右值，而 std::forward 只在特定条件下这样做。
+ *     std::forward 是一种条件转换。
  */
 
 #ifndef TYPICAL_USE_OF_STD_FORWARD_H

@@ -4,10 +4,14 @@
  *   * Only if there's no way to convert the types of the arguments in a braced
  *     initializer to the type in a std::initializer_list do compilers fall back
  *     on normal overload resolution.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   * 只有当花括号初始化器中的实参类型无法转换为 std::initializer_list 中的元素类型时，
+ *     编译器才会回退到普通重载决议。
  */
 
 #include <iostream>

@@ -13,10 +13,18 @@
  *   almost always a bad idea: the universal reference overload vacuums up far
  *   more argument types than the developer doing the overloading generally
  *   expects.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   这里对 logAndAdd 进行了重载。对这两个重载的调用解析并不总是按预期工作。最后一次调用
+ *   会调用接受万能引用的重载，而这很可能不是我们想要的结果。
+ *
+ *   接受万能引用的函数是 C++ 中最贪婪的函数。它们会实例化出几乎能精确匹配任何实参类型的
+ *   函数。（少数不能这样匹配的实参类型见 Item 30。）这就是为什么把重载和万能引用结合起来
+ *   几乎总是坏主意：万能引用重载会吸走远多于重载编写者通常预期的实参类型。
  */
 
 #include <chrono>

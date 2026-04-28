@@ -4,9 +4,12 @@
  *   Forward declaration of enums removes the dependency
  *   on the enum definition.
  *
- *   中文解释：
- *   枚举可以前置声明时，使用者只需要知道这个枚举类型存在，
- *   不必包含完整定义，从而降低头文件之间的编译依赖。
+ */
+
+/*
+ * 核心思想：
+ *
+ *   enum 的前置声明可以消除对 enum 定义的依赖。
  */
 
 enum class Status;                  // forward declaration

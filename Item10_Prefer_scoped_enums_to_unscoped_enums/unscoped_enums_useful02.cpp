@@ -8,10 +8,14 @@
  *   advantage of implicit conversion which would have otherwise
  *   be more effort using scoped enums.
  *
- *   中文解释：
- *   这里用非作用域枚举表示 tuple 字段下标，比裸数字更清晰。
- *   因为 std::get 需要编译期整数下标，非作用域枚举能隐式转换成整数，
- *   所以不需要像作用域枚举那样额外写强制转换。
+ */
+
+/*
+ * 核心思想：
+ *
+ *   这里使用非限域枚举来引用 std::tuple 中的字段，相比直接使用编号字段更好。
+ *
+ *   由于 std::get 需要 size_t，这里可以利用隐式转换；如果使用限域枚举，则需要更多额外工作。
  */
 
 #include <string>

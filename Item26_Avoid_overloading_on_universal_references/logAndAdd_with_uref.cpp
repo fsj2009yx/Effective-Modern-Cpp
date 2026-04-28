@@ -4,10 +4,14 @@
  *   The inefficiencies in the second and third calls can be eliminated by
  *   rewriting logAndAdd to take a universal reference (see Item 24) and, in
  *   accord with Item 25, std::forwarding this reference to emplace.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   第二次和第三次调用中的低效，可以通过把 logAndAdd 改写为接受万能引用（见 Item 24），
+ *   并按照 Item 25 将该引用 std::forward 给 emplace 来消除。
  */
 
 #include <chrono>

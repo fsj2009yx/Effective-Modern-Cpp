@@ -4,9 +4,12 @@
  *   With alias declaration, dependent types no longer require
  *   to be preceded by typename (as does the cumbersome "::type" suffix).
  *
- *   中文解释：
- *   使用 using 别名模板后，客户端代码可以直接写别名类型，
- *   不需要再写 typename，也不需要通过繁琐的 ::type 取出嵌套类型。
+ */
+
+/*
+ * 核心思想：
+ *
+ *   使用别名声明时，依赖类型不再需要前置 typename，也不再需要笨重的 ::type 后缀。
  */
 
 #include <list>

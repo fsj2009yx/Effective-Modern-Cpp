@@ -5,10 +5,13 @@
  *   reference with pass by value. This adheres to the guidance in Item 41 to
  *   consider passing objects by value when you know you'll copy them..
  *
- *   中文解释：
- *   不一定要用通用引用来处理所有构造参数。
- *   如果函数或构造函数内部本来就要复制参数，可以考虑按值传参，
- *   再在成员初始化时移动它，这样接口更简单，也能避开通用引用重载带来的问题。
+ */
+
+/*
+ * 核心思想：
+ *
+ *   避免对万能引用进行重载的一种替代方案，是把按引用传递替换为按值传递。这符合 Item 41
+ *   的建议：当你知道会拷贝对象时，考虑按值传递对象。
  */
 
 #include <string>

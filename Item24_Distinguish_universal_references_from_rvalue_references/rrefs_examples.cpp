@@ -3,10 +3,13 @@
  *
  *   It seems reasonable to assume that if you see "T&&" in source code, you're
  *   looking at an rvalue reference.  However, it's not quite that simple.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   如果在源码中看到 T&&，很容易合理地假定它是右值引用。然而，事情并没有那么简单。
  */
 
 #include <vector>

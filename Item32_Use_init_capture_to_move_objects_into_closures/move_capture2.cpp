@@ -2,10 +2,13 @@
  * Key idea:
  *
  *   Example demonstrating how to use std::bind to emulate move capture.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   该示例演示如何使用 std::bind 模拟移动捕获。
  */
 
 #include <functional>

@@ -15,10 +15,24 @@
  *   2. If, after ignoring expr's reference-ness, expr is const, ignore that,
  *      too.  If it's volatile, also ignore that. (volatile objects are uncommon.
  *      They're generally used only for implementing device drivers.)
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   如果处理的是按值传递：
+ *
+ *     template <typename T>
+ *     void f(T param);        // param 现在按值传递
+ *
+ *   这意味着 param 会成为传入实参的一个副本，也就是一个全新的对象。正因为 param 是
+ *   一个新对象，才产生了从 expr 推导 T 的规则：
+ *
+ *   1. 和前面一样，如果 expr 的类型是引用，忽略引用部分。
+ *
+ *   2. 在忽略 expr 的引用性之后，如果 expr 是 const，也忽略 const；如果是 volatile，
+ *      也同样忽略。（volatile 对象并不常见，通常只用于实现设备驱动。）
  */
 
 template<typename T>

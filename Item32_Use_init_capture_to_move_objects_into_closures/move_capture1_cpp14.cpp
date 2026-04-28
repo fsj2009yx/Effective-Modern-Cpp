@@ -3,10 +3,13 @@
  *
  *   C++14 example showing how you can create a local std::vector, put an
  *   appropriate set of values into it, and then move it into a closure.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   C++14 示例，展示如何创建一个局部 std::vector，放入适当的一组值，然后把它移动到闭包中。
  */
 
 #include <utility>

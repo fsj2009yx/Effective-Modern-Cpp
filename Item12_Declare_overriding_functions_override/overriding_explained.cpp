@@ -3,10 +3,13 @@
  *
  *   Virtual function overriding is what makes it possible to invoke a derived
  *   class function through a base class interface.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   虚函数重写使得通过基类接口调用派生类函数成为可能。
  */
 
 #include <iostream>

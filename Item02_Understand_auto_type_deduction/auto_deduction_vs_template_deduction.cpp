@@ -3,10 +3,13 @@
  *
  *   The treatment of braced initializers is the only way in which auto type
  *   deduction and template type deduction differ.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   对花括号初始化器的处理，是 auto 类型推导与模板类型推导唯一不同的地方。
  */
 
 #include <initializer_list>

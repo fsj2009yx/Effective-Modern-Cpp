@@ -2,10 +2,13 @@
  * Key idea:
  *
  *   const_iterators were so much trouble in C++98.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   const_iterator 在 C++98 中非常麻烦。
  */
 
 #include <algorithm>

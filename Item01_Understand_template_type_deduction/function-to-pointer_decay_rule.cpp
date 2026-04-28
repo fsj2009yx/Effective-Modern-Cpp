@@ -4,6 +4,14 @@
  *   Function types can decay into pointers, too, and everything regarding type
  *   deduction and arrays applies to type deduction for functions and their decay
  *   into function pointers.
+ *
+ */
+
+/*
+ * 核心思想：
+ *
+ *   函数类型也可以退化为指针；关于数组的类型推导及其退化为指针的所有规则，也适用于
+ *   函数的类型推导以及函数退化为函数指针。
  */
 
 void someFunc(int, double){}  // someFunc is a function;

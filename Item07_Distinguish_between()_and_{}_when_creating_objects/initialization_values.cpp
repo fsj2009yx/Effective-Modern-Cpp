@@ -9,11 +9,20 @@
  *
  *    * A feature of braced initialization is that it prohibits implicit
  *      narrowing conversions among built-in types.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
-
  */
+
+/*
+ * 核心思想：
+ *
+ *   * 初始化值可以用很多不同方式指定。
+ *
+ *   * C++11 引入“统一初始化”，用于解决多种初始化语法造成的混乱，也用于弥补这些语法
+ *     无法覆盖所有初始化场景的问题。
+ *
+ *   * 花括号初始化的一个特性是，它会禁止内置类型之间的隐式窄化转换。
+ */
+
 #include <atomic>
 #include <vector>
 

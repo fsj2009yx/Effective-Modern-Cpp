@@ -3,10 +3,13 @@
  *
  *   "Invisible" proxy types can cause auto to deduce the "wrong" type for an
  *   initializing expression.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   “不可见”的代理类型会导致 auto 为初始化表达式推导出“错误”的类型。
  */
 
 #include <iostream>

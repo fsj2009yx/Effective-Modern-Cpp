@@ -4,10 +4,14 @@
  *   The use of a braced initializer is a perfect forwarding failure case.
  *   However, there is a workaround by declaring a local variable using auto,
  *   and then passing the local variable to the forwarding function.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   使用花括号初始化器是完美转发的失败场景。不过有一个变通方法：使用 auto 声明一个局部
+ *   变量，然后把该局部变量传给转发函数。
  */
 
 #include <iostream>

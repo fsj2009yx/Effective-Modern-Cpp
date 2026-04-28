@@ -18,11 +18,26 @@
  *
  *   When the RVO is permitted, either copy elision takes place or std::move is
  *   implicitly applied to local objects being returned.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
-
  */
+
+/*
+ * 核心思想：
+ *
+ *   对于返回局部变量且按值返回的函数，在 return 语句中把拷贝变成移动并不是好主意。
+ *
+ *   makeWidget 的“拷贝”版本可以通过直接在函数返回值的内存中构造局部变量 w，避免拷贝 w。
+ *   这称为返回值优化（RVO）。
+ *
+ *   makeWidget 的移动版本会按其名称所示执行（假设 Widget 提供移动构造函数）：把 w 的内容
+ *   移动到 makeWidget 的返回值位置。
+ *
+ *   开发者试图通过对正在返回的局部变量应用 std::move 来帮助编译器优化，实际上是在限制
+ *   编译器可用的优化选项。
+ *
+ *   当允许 RVO 时，要么发生拷贝消除，要么 std::move 会被隐式应用于正在返回的局部对象。
+ */
+
 class Widget {};
 
 Widget makeWidget()

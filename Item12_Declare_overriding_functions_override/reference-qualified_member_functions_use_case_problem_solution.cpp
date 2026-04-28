@@ -2,11 +2,15 @@
  * Key idea
  *
  *  The need for reference-qualified member functions is not common, but it can arise.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
-
  */
+
+/*
+ * 核心思想：
+ *
+ *   对引用限定成员函数的需求并不常见，但确实可能出现。
+ */
+
 #include <utility>
 #include <vector>
 

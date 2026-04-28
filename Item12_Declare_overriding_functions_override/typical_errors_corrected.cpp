@@ -2,10 +2,13 @@
  * Key idea:
  *
  *   This the code-example that uses override and is correct.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   这是一个使用 override 且正确的代码示例。
  */
 
 class Base {

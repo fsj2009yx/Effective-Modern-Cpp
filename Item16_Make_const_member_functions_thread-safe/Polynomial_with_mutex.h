@@ -3,10 +3,13 @@
  *
  *   The easiest way to address the issue of lack of thread safety is the usual
  *   one: employ a mutex.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   解决线程安全缺失问题最简单的方法，就是常规做法：使用互斥量。
  */
 
 #include <mutex>

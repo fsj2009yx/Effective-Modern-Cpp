@@ -3,10 +3,13 @@
  *
  *   If you see "T&&" without type deduction, you're looking at an rvalue
  *   reference.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   如果你看到没有类型推导参与的 T&&，看到的就是右值引用。
  */
 
 class Widget {};

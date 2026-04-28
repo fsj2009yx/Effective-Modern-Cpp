@@ -13,10 +13,23 @@
  * References:
  *
  *   [1] http://scottmeyers.blogspot.be/2016/11/help-me-sort-out-meaning-of-as.html
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   * 空花括号表示没有实参，而不是一个空的 std::initializer_list。
+ *
+ *   * 如果想调用带 std::initializer_list 的构造函数并传入一个空的
+ *     std::initializer_list，需要把空花括号作为构造函数实参，也就是把空花括号放到表示
+ *     传参范围的圆括号或花括号内部。
+ *
+ *   * 更多讨论另见博客文章 [1]。
+ *
+ *   参考：
+ *
+ *   [1] http://scottmeyers.blogspot.be/2016/11/help-me-sort-out-meaning-of-as.html
  */
 
 #include <iostream>

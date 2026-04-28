@@ -2,10 +2,13 @@
  * Key idea:
  *
  *   Constructors and other member functions may be constexpr.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   构造函数和其他成员函数可以是 constexpr。
  */
 
 class Point {

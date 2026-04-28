@@ -6,10 +6,15 @@
  *   different threads reading and writing the same memory without
  *   synchronization, and that's the definition of a data race.  This code has
  *   undefined behavior.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   在 roots 内部，这两个线程中的一个或两个可能会尝试修改数据成员 rootsAreValid 和
+ *   rootVals。这意味着这段代码可能让不同线程在没有同步的情况下读写同一块内存，而这正是
+ *   数据竞争的定义。这段代码具有未定义行为。
  */
 
 #include <thread>

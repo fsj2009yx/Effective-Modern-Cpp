@@ -5,10 +5,15 @@
  *   could look like this.
  *
  * TODO: add this to CMakeLists.txt so that it gets checked somehow.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   std::forward 的一个概念性实现（不符合标准）可能如下所示。
+ *
+ *   TODO：把它加入 CMakeLists.txt，使其能以某种方式被检查。
  */
 
 #include <type_traits>

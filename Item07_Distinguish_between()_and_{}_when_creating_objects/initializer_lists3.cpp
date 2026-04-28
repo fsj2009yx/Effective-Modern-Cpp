@@ -4,10 +4,14 @@
  *   * Compiler's determiniation to match braced initializers with constructors
  *     taking std::initializer_lists is so strong, it prevails even if the
  *     best-match std::initializer_list constructor can't be called.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   * 编译器将花括号初始化器匹配到接受 std::initializer_list 的构造函数的决心非常强，
+ *     即使最佳匹配的 std::initializer_list 构造函数无法被调用，这种偏好仍会占上风。
  */
 
 #include <iostream>

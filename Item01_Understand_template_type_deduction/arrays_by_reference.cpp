@@ -9,10 +9,15 @@
  *   char[13], and the type of f's parameter (a reference to this array) is
  *   const char (&)[13].
  *
- *   中文解释：
- *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   虽然函数不能声明真正的数组形参，但可以声明数组引用形参。
+ *
+ *   T 会被推导为数组的真实类型。这个类型包含数组大小，所以在本例中 T 被推导为
+ *   const char[13]，而 f 的形参类型（该数组的引用）是 const char (&)[13]。
  */
 
 template<typename T>

@@ -8,10 +8,18 @@
  *
  *   3) Constructing more than one std::shared_ptr from a single
  *      raw pointer results in undefined behavior.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   1) 对 std::unique_ptr 来说，删除器的类型是智能指针类型的一部分；对 std::shared_ptr
+ *      来说则不是。
+ *
+ *   2) std::shared_ptr 的设计更加灵活。
+ *
+ *   3) 从同一个原始指针构造多个 std::shared_ptr 会导致未定义行为。
  */
 
 #include <iostream>

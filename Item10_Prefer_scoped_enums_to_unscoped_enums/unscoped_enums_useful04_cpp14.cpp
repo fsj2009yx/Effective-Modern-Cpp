@@ -5,10 +5,13 @@
  *   to reference a field in std::tuple. To create a helper
  *   function, use constexpr since std::get is a template.
  *
- *   中文解释：
- *   作用域枚举用作 tuple 字段下标时需要转换成底层整数类型。
- *   因为 std::get 的下标必须是编译期常量，辅助转换函数要用 constexpr。
- *   C++14 可以用 std::underlying_type_t 或 auto 返回类型把写法变得更简洁。
+ */
+
+/*
+ * 核心思想：
+ *
+ *   为了引用 std::tuple 中的字段，限域枚举需要转换为 size_t 类型。若要创建辅助函数，
+ *   应使用 constexpr，因为 std::get 是模板。
  */
 
 #include <string>

@@ -4,10 +4,15 @@
  *   A common use case for std::forward looks like this.
  *
  * TODO: add this to CMakeLists.txt somehow.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   std::forward 的一个常见用法如下。
+ *
+ *   TODO：以某种方式把它加入 CMakeLists.txt。
  */
 
 void someFunc(int x) {}

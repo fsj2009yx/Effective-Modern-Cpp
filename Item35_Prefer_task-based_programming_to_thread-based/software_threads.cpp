@@ -4,10 +4,14 @@
  *   - Software threads are a limited resource.  If you try to create more than the system
  *     can provide, a std::system_error exception is thrown.  This is true even if the function
  *     you want to run can't throw.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   - 软件线程是一种有限资源。如果你试图创建超过系统可提供数量的线程，会抛出
+ *     std::system_error 异常。即使你想运行的函数本身不会抛出异常，这一点也成立。
  */
 
 #include <iostream>

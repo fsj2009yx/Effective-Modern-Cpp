@@ -5,9 +5,13 @@
  *   scope containing the enum, and that means nothing else in that scope may
  *   have the same name:
  *
- *   中文解释：
- *   C++98 风格的非作用域枚举会把枚举值名字放到外层作用域中。
- *   因此外层作用域里不能再声明同名变量，否则会产生命名冲突。
+ */
+
+/*
+ * 核心思想：
+ *
+ *   在 C++98 风格的枚举中，这些非限域枚举器的名字属于包含该 enum 的作用域，这意味着同一
+ *   作用域中不能再有其他东西使用相同名字：
  */
 
 enum Color { black, white, red };  // black, white, red are

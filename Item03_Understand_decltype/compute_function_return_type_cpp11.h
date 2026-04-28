@@ -3,10 +3,13 @@
  *
  *   Example that shows how to use decltype to compute the return type.
  *   Needs refinement though!
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   这个示例展示如何使用 decltype 计算返回类型。不过它仍需要进一步完善。
  */
 
 void authenticateUser() {}

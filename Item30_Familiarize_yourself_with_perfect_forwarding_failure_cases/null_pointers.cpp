@@ -3,10 +3,13 @@
  *
  *   Neither 0 or NULL can be perfect-forwarded as a null pointer.  The fix is
  *   easy, however: pass nullptr instead of 0 or NULL
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   0 和 NULL 都不能作为空指针被完美转发。不过修复很简单：传递 nullptr，而不是 0 或 NULL。
  */
 
 #include <iostream>

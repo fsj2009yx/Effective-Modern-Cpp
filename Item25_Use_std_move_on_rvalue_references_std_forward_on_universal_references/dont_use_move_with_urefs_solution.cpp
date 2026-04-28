@@ -11,10 +11,19 @@
  *
  *     - such a design has poor scalability: n parameters necessitates 2^n
  *       overloads.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   为 const 左值和右值分别提供重载可以解决问题，但也有缺点：
+ *
+ *     - 需要编写和维护更多源代码（两个函数，而不是一个简单模板）。
+ *
+ *     - 可能效率更低。
+ *
+ *     - 这种设计的可伸缩性很差：n 个形参需要 2^n 个重载。
  */
 
 #include <iostream>

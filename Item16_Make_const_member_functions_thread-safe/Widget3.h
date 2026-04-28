@@ -5,11 +5,16 @@
  *   a std::atomic is adequate, but once you go to two or more variables or
  *   memory locations that require manipulation as a unit, you should reach for
  *   a mutex.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
-
  */
+
+/*
+ * 核心思想：
+ *
+ *   对于需要同步的单个变量或内存位置，使用 std::atomic 就足够；但一旦涉及两个或更多
+ *   需要作为一个整体进行操作的变量或内存位置，就应该使用互斥量。
+ */
+
 #include <atomic>
 #include <mutex>
 

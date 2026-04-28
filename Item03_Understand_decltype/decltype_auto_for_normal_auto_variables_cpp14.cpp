@@ -4,10 +4,14 @@
  *   The use of decltype(auto) is not limited to function return types.  It can
  *   also be convenient for declaring variables when you want to apply the
  *   decltype type deduction rules to the initializing expression.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   decltype(auto) 并不限于函数返回类型。当你希望对初始化表达式应用 decltype 的类型
+ *   推导规则时，它也可以方便地用于变量声明。
  */
 
 class Widget {};

@@ -3,11 +3,15 @@
  *
  *   Reversing the order of the assignments to cachedValue and CacheValid
  *   eliminates that problem, but the result is even worse.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
-
  */
+
+/*
+ * 核心思想：
+ *
+ *   反转对 cachedValue 和 CacheValid 的赋值顺序可以消除那个问题，但结果甚至更糟。
+ */
+
 #include <atomic>
 
 int expensiveComputation1() { return 1; }

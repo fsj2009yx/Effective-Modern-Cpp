@@ -7,10 +7,16 @@
  *   A lambda expression is simply a way to cause a class to be generated and an
  *   object of that type to be created.  There is nothing you can do with a
  *   lambda that you can't do by hand.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   该示例展示如何在不支持移动捕获的语言版本中实现移动捕获。
+ *
+ *   lambda 表达式只是一种让编译器生成一个类并创建该类型对象的方式。lambda 能做的事情，
+ *   手写类也都能做到。
  */
 
 #include <memory>

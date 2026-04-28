@@ -6,9 +6,13 @@
  *   Unscoped enums have an advantage here with implicit
  *   conversion.
  *
- *   中文解释：
- *   如果用作用域枚举表示 tuple 字段下标，枚举值不会自动变成 size_t，
- *   因此传给 std::get 时必须显式转换。这里展示的是作用域枚举在该场景下的额外成本。
+ */
+
+/*
+ * 核心思想：
+ *
+ *   这是用限域枚举引用 std::tuple 字段的方法，它需要转换为 size_t。非限域枚举在这里的
+ *   优势是可以隐式转换。
  */
 
 #include <string>

@@ -5,9 +5,12 @@
  *   in a metafunction or container. In addition, dependent types
  *   must be preceded by typename.
  *
- *   中文解释：
- *   typedef 不能直接模板化，所以需要用模板结构体包一层并暴露 type。
- *   当这个 type 依赖模板参数时，编译器需要 typename 来确认它表示类型。
+ */
+
+/*
+ * 核心思想：
+ *
+ *   typedef 不能模板化，因此需要包装在元函数或容器中。此外，依赖类型必须前置 typename。
  */
 
 #include <list>

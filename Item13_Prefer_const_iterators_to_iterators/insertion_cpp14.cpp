@@ -5,10 +5,16 @@
  *   up a bit short is when you want to write maximally generic library code.
  *
  *   This works fine in C++14, but, sadly, not in C++11.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   C++11 对 const_iterator 的支持唯一稍显不足的情况，大概是在你想编写最大程度泛化的
+ *   库代码时。
+ *
+ *   这在 C++14 中可以正常工作，但遗憾的是，在 C++11 中不行。
  */
 
 #include <algorithm>

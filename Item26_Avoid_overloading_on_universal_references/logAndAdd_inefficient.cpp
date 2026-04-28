@@ -3,10 +3,12 @@
  *
  *   This code is not unreasonable, but not as efficient as it could be.
  *
- *   中文解释：
- *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   这段代码并非不合理，但还可以更高效。
  */
 
 #include <chrono>

@@ -7,10 +7,14 @@
  *   Note that this compiles, but will fail for clients
  *   because the destructor is not implemented.
  *
- *   中文解释：
- *   这个版本用 unique_ptr<Impl> 替代裸指针来实现 Pimpl。
- *   头文件可以只前置声明 Impl，但 unique_ptr 的析构需要完整类型，
- *   所以相关特殊成员函数应在 .cpp 中定义，否则客户端使用时可能编译失败。
+ */
+
+/*
+ * 核心思想：
+ *
+ *   C++11 版本的 Pimpl 惯用法用智能指针替换原始指针。
+ *
+ *   注意，这段代码本身可以编译，但客户端会失败，因为析构函数没有实现。
  */
 
 #include <memory>

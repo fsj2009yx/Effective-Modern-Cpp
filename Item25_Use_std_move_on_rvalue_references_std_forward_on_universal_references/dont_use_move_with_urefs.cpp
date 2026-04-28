@@ -3,10 +3,14 @@
  *
  *   Using std::move with universal references is a bad idea, because that can
  *   have the effect of unexpectedly modifying lvalues (e.g., local variables).
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   对万能引用使用 std::move 是个坏主意，因为这可能产生意外修改左值（例如局部变量）的
+ *   效果。
  */
 
 #include <iostream>

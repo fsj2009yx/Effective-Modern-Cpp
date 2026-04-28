@@ -8,10 +8,15 @@
  *       2) std::move not only doesn't actually move anything, it doesn't even
  *          guarantee that the object it's casting will be eligible to be moved.
  *
- *   中文解释：
- *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   - text 没有被移动到 value 中，而是被拷贝了。
+ *   - 得到的两个教训：
+ *       1) 如果你希望能够从对象移动，就不要把对象声明为 const。
+ *       2) std::move 不仅实际上不移动任何东西，它甚至不保证被转换的对象有资格被移动。
  */
 
 #include <string>

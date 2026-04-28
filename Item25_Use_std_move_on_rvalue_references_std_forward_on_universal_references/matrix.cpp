@@ -4,10 +4,14 @@
  *   If you're in a function that returns by value, and you're returning an
  *   object bound to an rvalue reference or a universal reference, you'll want
  *   to apply std::move or std::forward when you return the reference.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   如果你在一个按值返回的函数中，并且返回的是绑定到右值引用或万能引用的对象，那么在
+ *   返回该引用时应使用 std::move 或 std::forward。
  */
 
 #include <utility>

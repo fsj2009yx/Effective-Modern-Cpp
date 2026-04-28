@@ -3,10 +3,13 @@
  *
  *   Compilers typically offer no help in identifying inconsistencies between
  *   function implementations and their exception specifications.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   编译器通常不会帮助识别函数实现与其异常说明之间的不一致。
  */
 
 void setup() {};

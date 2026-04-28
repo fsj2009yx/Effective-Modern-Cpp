@@ -5,10 +5,14 @@
  *   that type in a way that leads to compilation problems.  The error message
  *   reporting the problem is virtually sure to mention the type that's causing
  *   it.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   让编译器显示其推导出的类型，一个有效方法是以会导致编译问题的方式使用该类型。报告
+ *   该问题的错误消息几乎一定会提到引发问题的类型。
  */
 
 template<typename T>  // declaration only for TD;

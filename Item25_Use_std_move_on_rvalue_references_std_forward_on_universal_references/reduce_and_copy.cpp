@@ -7,11 +7,18 @@
  *
  *   If the call to std::forward were omitted, frac would be unconditionally
  *   copied into reduceAndCopy's return value.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
-
  */
+
+/*
+ * 核心思想：
+ *
+ *   如果原对象是右值，它的值应该被移动到返回值中（从而避免拷贝开销）；但如果原值是左值，
+ *   就必须创建真正的副本。
+ *
+ *   如果省略对 std::forward 的调用，frac 会被无条件拷贝到 reduceAndCopy 的返回值中。
+ */
+
 #include <utility>
 
 struct Fraction {

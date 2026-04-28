@@ -18,10 +18,27 @@
  *   of cx and rx continues to be respected, but because we're now assuming that
  *   param is a reference-to-const, there's no longer a need for const to be
  *   deduced as part of T.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   考虑模板和调用的一般形式：
+ *
+ *     template <typename T>
+ *     void f(ParamType param);
+ *
+ *     f(expr);                // 从 expr 推导 T 和 ParamType
+ *
+ *   在最简单的情形下，如果 ParamType 是指针类型或引用类型，但不是万能引用，类型推导按
+ *   如下方式工作：
+ *
+ *   1. 如果 expr 的类型是引用，忽略引用部分。
+ *   2. 然后将 expr 的类型与 ParamType 做模式匹配，以确定 T。
+ *
+ *   如果 f 的形参类型从 T& 改为 const T&，cx 和 rx 的 const 性仍然会被保留；但因为
+ *   现在假定 param 是 const 引用，const 不再需要作为 T 的一部分被推导出来。
  */
 
 template<typename T>

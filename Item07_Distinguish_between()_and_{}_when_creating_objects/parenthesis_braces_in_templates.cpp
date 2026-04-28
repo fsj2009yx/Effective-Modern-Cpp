@@ -4,10 +4,14 @@
  *   * If you're a template author, the tension between parentheses and braces
  *     for object creation can be especially frustrating, because, in general,
  *     it's not possible to know which should be used.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   * 如果你是模板作者，对象创建中圆括号与花括号之间的张力会尤其令人沮丧，因为通常无法
+ *     预先知道应该使用哪一种。
  */
 
 #include <vector>

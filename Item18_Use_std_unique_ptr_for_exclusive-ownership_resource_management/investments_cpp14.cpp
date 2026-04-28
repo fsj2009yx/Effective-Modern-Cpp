@@ -4,10 +4,14 @@
  *   In C++14, the existence of function return type deduction (see Item 3)
  *   means that makeInvestment could be implemented in a simpler and more
  *   encapsulated fashion.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   在 C++14 中，函数返回类型推导的存在（见 Item 3）意味着 makeInvestment 可以用更简单
+ *   且封装性更好的方式实现。
  */
 
 #include "investment.h"

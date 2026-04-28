@@ -3,10 +3,13 @@
  *
  *   auto universal references crop up quite a lot in C++14, because C++14
  *   lambda expressions may declare auto&& parameters.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   auto 万能引用在 C++14 中相当常见，因为 C++14 的 lambda 表达式可以声明 auto&& 形参。
  */
 
 #include <utility>

@@ -4,10 +4,14 @@
  *   Assuming that the class declares no copy operations, no move operations,
  *   and no destructor, compilers will automatically generate these functions if
  *   they are used.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   假设该类没有声明拷贝操作、移动操作和析构函数，只要这些函数被使用，编译器就会自动
+ *   生成它们。
  */
 
 #include <map>

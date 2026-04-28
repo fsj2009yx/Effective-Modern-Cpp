@@ -3,10 +3,13 @@
  *
  *   std::forward requires both a function argument (rhs.s) and a template type
  *   argument (std::string).
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   std::forward 同时需要一个函数实参（rhs.s）和一个模板类型实参（std::string）。
  */
 
 #include <string>

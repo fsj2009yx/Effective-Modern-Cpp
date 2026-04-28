@@ -5,10 +5,14 @@
  *   sign.setText, because we want to use that value when we call
  *   signHistory.add.  Ergo the use of std::forward on only the final use of the
  *   universal reference.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   这里我们要确保 text 的值不会被 sign.setText 改变，因为调用 signHistory.add 时还要
+ *   使用这个值。因此，只在万能引用的最后一次使用处应用 std::forward。
  */
 
 // TODO:

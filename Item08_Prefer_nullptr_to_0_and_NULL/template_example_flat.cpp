@@ -5,10 +5,14 @@
  *
  *   - The following code for f1, f2, and f3 can be templatized.
  *
- *   中文解释：
- *   - 模板参与类型推导时，nullptr 的优势更明显，因为它能被明确推导为空指针。
+ */
+
+/*
+ * 核心思想：
  *
- *   - 下面 f1、f2、f3 的重复调用逻辑可以抽成一个函数模板。
+ *   - 当模板进入场景时，nullptr 的优势尤其明显。
+ *
+ *   - 下面用于 f1、f2 和 f3 的代码可以模板化。
  */
 
 #include <iostream>

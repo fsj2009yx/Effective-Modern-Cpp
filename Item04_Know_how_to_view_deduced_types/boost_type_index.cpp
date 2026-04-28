@@ -3,11 +3,14 @@
  *
  *   It is possible to produce accurate type information using Boost.TypeIndex.
  *
- *   中文解释：
- *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
-
  */
+
+/*
+ * 核心思想：
+ *
+ *   可以使用 Boost.TypeIndex 生成准确的类型信息。
+ */
+
 #include <iostream>
 #include <typeinfo>
 #include <vector>

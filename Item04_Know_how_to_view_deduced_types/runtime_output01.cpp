@@ -4,10 +4,14 @@
  *   Calls to std::type_info::name are not guaranteed to return anything
  *   sensible, but implementations try to be helpful.  The level of helpfullnes
  *   varies.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   调用 std::type_info::name 并不保证会返回任何有意义的内容，但实现通常会尽量提供
+ *   帮助。帮助程度因实现而异。
  */
 
 #include <iostream>

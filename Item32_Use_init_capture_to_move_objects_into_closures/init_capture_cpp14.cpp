@@ -3,10 +3,13 @@
  *
  *   C++14 example showing how one can use init capture to move a
  *   std::unique_ptr into a closure.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   C++14 示例，展示如何使用初始化捕获把 std::unique_ptr 移动到闭包中。
  */
 
 #include <memory>

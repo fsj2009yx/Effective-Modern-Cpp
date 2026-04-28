@@ -2,10 +2,13 @@
  * Key idea:
  *
  *   Use std::weak_ptr for std::shared_ptr-like pointers that can dangle.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   对可能悬空的、类似 std::shared_ptr 的指针，使用 std::weak_ptr。
  */
 
 #include <memory>

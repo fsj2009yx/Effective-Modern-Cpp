@@ -15,10 +15,22 @@
  *     references
  *   * If expr is an rvalue, the usual type deduction rules apply.
  *
- *   中文解释：
- *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   考虑模板和调用的一般形式：
+ *
+ *     template <typename T>
+ *     void f(ParamType param);
+ *
+ *     f(expr);                // 从 expr 推导 T 和 ParamType
+ *
+ *   当 ParamType 是万能引用类型时，类型推导按如下方式工作：
+ *
+ *   * 如果 expr 是左值，T 和 ParamType 都会被推导为左值引用。
+ *   * 如果 expr 是右值，则应用通常的类型推导规则。
  */
 
 template<typename T>

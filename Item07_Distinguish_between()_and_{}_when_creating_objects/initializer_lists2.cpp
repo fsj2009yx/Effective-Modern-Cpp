@@ -12,10 +12,21 @@
  *
  *   * Even what would normally be copy and move construction can be hijacked by
  *     std::initializer_list constructors.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   * 在构造函数调用中，只要不涉及 std::initializer_list 形参，圆括号和花括号具有相同
+ *     含义。
+ *
+ *   * 如果一个或多个构造函数声明了 std::initializer_list 类型的形参，使用花括号初始化
+ *     语法的调用会强烈偏向接受 std::initializer_list 的重载。非常强烈。只要编译器有
+ *     任何办法把使用花括号初始化器的调用解释为调用接受 std::initializer_list 的构造函数，
+ *     它就会采用这种解释。
+ *
+ *   * 甚至通常的拷贝构造和移动构造，也可能被 std::initializer_list 构造函数劫持。
  */
 
 #include <iostream>

@@ -6,10 +6,13 @@
  *   Clients of this code no longer need to recompile if
  *   the headers involved with the incomplete types change.
  *
- *   中文解释：
- *   C++98 中实现 Pimpl 时，头文件只声明 Impl 并保存 Impl*。
- *   客户端不需要知道 Impl 的完整定义，因此实现细节或相关头文件变化时，
- *   通常不必重新编译客户端。
+ */
+
+/*
+ * 核心思想：
+ *
+ *   在 C++98 中应用 Pimpl 惯用法：用指向结构体的原始指针替换所有数据成员。如果与不完整
+ *   类型相关的头文件发生变化，这段代码的客户端不再需要重新编译。
  */
 
 class Widget {        // still in header "widget.h"

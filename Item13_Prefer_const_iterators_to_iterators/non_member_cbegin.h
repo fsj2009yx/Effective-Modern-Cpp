@@ -5,10 +5,14 @@
  *   of the libraries you're using provides the missing templates for non-member
  *   cbegin and friends, you can throw your own implementations together with
  *   ease.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   如果你使用 C++11，想编写最大程度泛化的代码，并且所用库都没有提供缺失的非成员 cbegin
+ *   及其相关模板，那么可以很容易地自己实现它们。
  */
 
 template <class C>

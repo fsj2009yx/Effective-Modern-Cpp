@@ -11,10 +11,18 @@
  *
  *   - const doesn't offer the same guarantee as constexpr, because const
  *   objects need not be initialized with values known during compilation.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   - 在编译期已知的常量整数值，可以用于 C++ 要求整数常量表达式的上下文。这些上下文包括
+ *     指定数组大小、整数模板实参（包括 std::array 对象长度）、枚举器值、对齐说明符等。
+ *     如果你想把变量用于这些地方，当然应该把它声明为 constexpr，因为这样编译器会确保它
+ *     具有编译期值。
+ *
+ *   - const 不提供与 constexpr 相同的保证，因为 const 对象不一定用编译期已知的值初始化。
  */
 
 #include <array>

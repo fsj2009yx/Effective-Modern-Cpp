@@ -2,10 +2,13 @@
  * Key idea:
  *
  *   Use decltype on auto&& parameters to std::forward them.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   对 auto&& 形参使用 decltype，以便对它们调用 std::forward。
  */
 
 #include <utility>

@@ -7,10 +7,17 @@
  *   - Using std::make_unique and std::make_shared is more exception safe.
  *
  *   - A special feature of std::make_shared is improved efficiency.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   - 优先使用 std::make_unique 和 std::make_shared，因为这样不必重复写出要创建的类型。
+ *
+ *   - 使用 std::make_unique 和 std::make_shared 更具异常安全性。
+ *
+ *   - std::make_shared 的一个特殊优势是效率更高。
  */
 
 // TODO: this doesn't compile yet, make it to compile!

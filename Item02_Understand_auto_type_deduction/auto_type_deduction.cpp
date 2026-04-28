@@ -3,10 +3,13 @@
  *
  *   Deducing types for auto is the same as deducing types for templates (with
  *   only one curious exception).
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   auto 的类型推导与模板的类型推导相同（只有一个有趣的例外）。
  */
 
 template<typename T>                 // conceptual template for

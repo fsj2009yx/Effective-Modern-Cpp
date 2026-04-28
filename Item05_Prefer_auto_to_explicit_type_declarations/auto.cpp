@@ -6,10 +6,17 @@
  *       - less verbose variable declarations
  *       - the ability to directly hold closures
  *       - the ability to avoid problems related to "type shortcuts"
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   * 使用 auto 的一些优点包括：
+ *       - 避免未初始化变量
+ *       - 变量声明更简洁
+ *       - 能够直接保存闭包
+ *       - 能够避免与“类型快捷方式”相关的问题
  */
 
 #include <memory>

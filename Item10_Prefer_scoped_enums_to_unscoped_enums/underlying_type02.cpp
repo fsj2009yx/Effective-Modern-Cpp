@@ -6,10 +6,13 @@
  *   declared, and the type specification can be placed in the
  *   definition.
  *
- *   中文解释：
- *   C++11 中，作用域枚举默认底层类型是 int。
- *   也可以显式指定底层类型；指定后可以前置声明，
- *   并且底层类型说明既能写在声明处，也能写在定义处。
+ */
+
+/*
+ * 核心思想：
+ *
+ *   在 C++11 中，所有限域枚举都有默认底层类型 int。也可以显式指定底层类型，可以前置声明，
+ *   并且类型说明可以放在定义中。
  */
 
 #include <cstdint>

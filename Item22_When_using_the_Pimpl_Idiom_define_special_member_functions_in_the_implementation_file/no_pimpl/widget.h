@@ -6,9 +6,13 @@
  *   If an included header's content changes, clients
  *   of this code must recompile.
  *
- *   中文解释：
- *   如果类直接在头文件中包含所有数据成员类型，就必须包含这些类型的完整头文件。
- *   一旦这些被包含的头文件发生变化，使用 Widget 的客户端代码也会被迫重新编译。
+ */
+
+/*
+ * 核心思想：
+ *
+ *   为了让这段代码能够编译，必须包含所有数据成员类型的头文件。如果某个被包含头文件的
+ *   内容发生变化，这段代码的客户端也必须重新编译。
  */
 
 #include <string>

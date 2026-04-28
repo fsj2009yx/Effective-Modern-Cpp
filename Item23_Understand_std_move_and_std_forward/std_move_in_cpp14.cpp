@@ -4,10 +4,14 @@
  *   std::move can be easily implemented in C++14 thanks to function return type
  *   deduction and to the Standard Library's alias template
  *   std::remove_reference_t.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   得益于函数返回类型推导以及标准库别名模板 std::remove_reference_t，std::move 可以在
+ *   C++14 中很容易地实现。
  */
 
 #include <type_traits>

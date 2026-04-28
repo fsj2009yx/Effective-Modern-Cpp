@@ -3,10 +3,14 @@
  *
  *   This is a C++14 version of a function that acts like std::async, but that
  *   automatically uses std::launch::async as the launch policy.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   这是一个 C++14 版本的函数，行为类似 std::async，但会自动使用 std::launch::async 作为
+ *   启动策略。
  */
 
 #include <future>

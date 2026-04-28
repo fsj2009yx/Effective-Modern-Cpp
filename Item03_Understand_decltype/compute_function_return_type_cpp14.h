@@ -5,10 +5,14 @@
  *   auto.  With that form of declaration, auto does mean that type deduction
  *   will take place.  In particular, it means that compilers will deduce the
  *   function's return type from the function's implementation.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   在 C++14 中，可以省略尾置返回类型，只保留前置的 auto。采用这种声明形式时，auto
+ *   的确表示会进行类型推导；具体来说，编译器会根据函数实现推导函数返回类型。
  */
 
 template<typename Container, typename Index>  // C++14 only, and

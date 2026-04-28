@@ -7,10 +7,16 @@
  *   - The way to get a perfect-forwarding function like fwd to accept an
  *     overloaded function name is to manually specify the overload or
  *     instantiation you want to have forwarded.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   - 重载函数名和模板名是完美转发的失败场景。
+ *
+ *   - 要让像 fwd 这样的完美转发函数接受一个重载函数名，需要手动指定希望被转发的重载版本
+ *     或模板实例化。
  */
 
 #include <utility>

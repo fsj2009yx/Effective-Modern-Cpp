@@ -4,10 +4,14 @@
  *   In C++14, Point's setters can be constexpr, making it possible
  *   to write the reflection function and have client code as given
  *   in the last statement of the main() function below.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   在 C++14 中，Point 的 setter 可以是 constexpr，从而可以编写 reflection 函数，并让
+ *   客户代码像下面 main() 函数最后一条语句那样使用。
  */
 
 #include "Point_cpp14.h"

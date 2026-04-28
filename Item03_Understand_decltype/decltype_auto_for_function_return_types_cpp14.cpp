@@ -5,10 +5,15 @@
  *   inferred.  C++14 makes this possible through the decltype(auto) specifier:
  *   auto specifies that the type is to be deduced, and decltype says that
  *   decltype rules should be used during the deduction.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   有时在类型被推断的场景中，需要使用 decltype 的类型推导规则。C++14 通过
+ *   decltype(auto) 说明符支持这一点：auto 表示类型需要被推导，decltype 表示推导时
+ *   应使用 decltype 规则。
  */
 
 void authenticateUser() {}

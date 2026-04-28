@@ -3,10 +3,13 @@
  *
  *   It is natural to declare the roots() function const, because it does not
  *   modify the polynomial.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   将 roots() 函数声明为 const 是自然的，因为它不会修改多项式。
  */
 
 #include <vector>

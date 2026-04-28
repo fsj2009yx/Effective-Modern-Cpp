@@ -3,10 +3,13 @@
  *
  *   Computing the roots of a polynomial can be expensive, so we don't want to
  *   do it if we don't have to.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   计算多项式的根可能很昂贵，因此不必要时不应执行该计算。
  */
 
 #include <vector>

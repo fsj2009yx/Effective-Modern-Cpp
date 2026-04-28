@@ -8,10 +8,17 @@
  *
  *   - In C++11, constexpr functions may contain no more than a single
  *   executable statement: a return.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   - pow 前面的 constexpr 并不是说 pow 返回 const 值，而是说如果 base 和 exp 是编译期
+ *     常量，pow 的结果可以用作编译期常量。如果 base 或 exp 不是编译期常量，pow 的结果
+ *     会在运行期计算。
+ *
+ *   - 在 C++11 中，constexpr 函数最多只能包含一条可执行语句：return。
  */
 
 #include <array>

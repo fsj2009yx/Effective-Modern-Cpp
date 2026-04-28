@@ -5,10 +5,14 @@
  *   copy constructor, which may produce compilation errors if the passed
  *   parameter is not of the same type as the member variable initialized.  To
  *   force on using the copy constructor, you might pass a const lvalue.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   完美转发构造函数通常会比拷贝构造函数匹配得更好；如果传入参数的类型与被初始化成员
+ *   变量的类型不同，这可能导致编译错误。若要强制使用拷贝构造函数，可以传入 const 左值。
  */
 
 #include <iostream>

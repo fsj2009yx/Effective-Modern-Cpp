@@ -3,10 +3,13 @@
  *
  * This code attempts to assign 10 to an rvalue int, which is forbidden in C++,
  * so the code won't compile.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   这段代码试图把 10 赋给一个右值 int，这在 C++ 中是禁止的，因此代码无法编译。
  */
 
 #include <deque>

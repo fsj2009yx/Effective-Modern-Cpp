@@ -3,10 +3,13 @@
  *
  *   std::async's default launch policy is std::launch::async or-ed together with
  *   std::launch::deferred.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   std::async 的默认启动策略是 std::launch::async 与 std::launch::deferred 的按位或组合。
  */
 
 #include <future>

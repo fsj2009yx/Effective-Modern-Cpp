@@ -5,9 +5,12 @@
  *   allowing the below to run. Scoped enums are strongly
  *   typed.
  *
- *   中文解释：
- *   非作用域枚举会隐式转换成整数类型，因此可能和 double 比较，
- *   甚至被传给需要 size_t 的函数。作用域枚举是强类型的，可以避免这类误用。
+ */
+
+/*
+ * 核心思想：
+ *
+ *   非限域枚举会隐式转换为整数类型，因此下面的代码可以运行。限域枚举是强类型的。
  */
 
 #include <cstddef>

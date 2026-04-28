@@ -12,10 +12,19 @@
  *   known during compilation.  That makes it possible to write constexpr
  *   functions that call Point's getters and to initialize constexpr objects
  *   with the results of such functions.
- *   中文解释：
  *
- *   本段说明该示例的核心思路与使用要点，帮助你更快理解代码意图。
+ */
 
+/*
+ * 核心思想：
+ *
+ *   - Point 构造函数可以声明为 constexpr，因为如果传给它的实参在编译期已知，构造出的
+ *     Point 的数据成员值也可以在编译期已知。因此这样初始化的 Point 可以是 constexpr。
+ *
+ *   - getter 函数 xValue 和 yValue 可以是 constexpr，因为如果它们在一个编译期值已知的
+ *     Point 对象上调用（例如 constexpr Point 对象），数据成员 x 和 y 的值也可以在编译期
+ *     已知。这使得编写调用 Point getter 的 constexpr 函数，以及用这些函数的结果初始化
+ *     constexpr 对象成为可能。
  */
 
 #include "Point_cpp11.h"
